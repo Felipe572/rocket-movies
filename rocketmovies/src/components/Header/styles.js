@@ -7,6 +7,7 @@ export const Container = styled.header`
   height: 105px;
   width: 100%;
   padding: 0 80px;
+  gap: 64px;
 
   border-bottom: 1px solid ${({theme}) => theme.COLORS.BACKGROUND_700};
   
@@ -20,21 +21,7 @@ export const Container = styled.header`
 
 .logo h1 {
   font-size: 1.8rem;
-  color: #ff6363;
-}
-
-.search-bar input {
-  flex: 1;
-  width: 300px;
-  padding: 8px 10px;
-  border-radius: 5px;
-  border: none;
-  background-color: #333;
-  color: #fff;
-}
-
-.search-bar input::placeholder {
-  color: #aaa;
+  color:${({theme}) => theme.COLORS.PINK};
 }
 
 `;

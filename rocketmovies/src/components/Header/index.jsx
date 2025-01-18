@@ -1,4 +1,3 @@
-import { FiSearch } from 'react-icons/Fi';
 import { Container, Profile } from "./styles";
 import { Input } from "../Input";
 
@@ -7,11 +6,9 @@ export function Header() {
         <Container>
             <div className="logo">
                 <h1>RocketMovies</h1>
-             </div>
+            </div>
             
             <Input type="text" placeholder="Pesquisar pelo título" />
-             <div className="search-bar">
-            </div>
             
 
             <Profile>
